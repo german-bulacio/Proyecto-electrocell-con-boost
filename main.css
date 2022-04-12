@@ -1,0 +1,14 @@
+h1{
+    color: #000;
+}
+h2,h3,h4{
+    color: rgb(5, 49, 225);
+}
+p{
+    font-size: 20px;
+    color: rgb(32, 2, 141);  
+}
+body{
+    background: rgb(247,247,247);
+    background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(202,221,236,1) 100%);
+}
