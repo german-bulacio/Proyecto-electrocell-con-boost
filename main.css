@@ -2,13 +2,80 @@ h1{
     color: #000;
 }
 h2,h3,h4{
-    color: rgb(5, 49, 225);
+    color: rgb(18, 0, 221);
 }
 p{
     font-size: 20px;
-    color: rgb(32, 2, 141);  
+    color: rgb(69, 0, 153);  
 }
 body{
     background: rgb(247,247,247);
     background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(202,221,236,1) 100%);
+}
+/*nosotros ccs*/
+.prr1{
+	font-size: 1.2rem;
+	margin:0 0 24px 0;
+}
+
+.sct1{
+	left: 10%;
+	position: -webkit-sticky;
+    top:17rem;
+	width: 25%;
+	z-index: 1111;
+}
+
+.nav1 .ul1{
+	display: table;
+	list-style-type: none;
+	width:100%;
+}
+
+.nav1 .li1{
+	display: table-cell;
+	text-align: center;
+}
+
+.nav1 .li1 .a1{
+  background-color:rgba(50,50,50,.2);
+	border:2px solid #fff;
+	color:tomato;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 10px;
+	text-decoration: none;
+}
+.parallas, .main1, .texto{margin:0 auto}
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:30rem;
+	max-width: 100%;
+	position: relative;
+}
+
+.texto-interior{
+	font-size: 2rem;
+	font-weight: bold;
+	left: 10%;
+	position: absolute;
+	text-align: center;
+	top:40%;
+	width: 80%
+}
+	
+.img-uno{background-image: url("/multi/fondos/fondoMn.png");}
+
+.img-dos{background-image:url("/multi/fondos/fondoMn.png");}
+
+.img-tres{background-image:url("/multi/fondos/fondoMn.png");}
+
+
+.texto{
+	padding:5%;
+	width: 90%
 }
